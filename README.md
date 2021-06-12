@@ -8,6 +8,7 @@ To use the pre-processor, first check that you have the required libraries insta
 * [Hazm](https://github.com/sobhe/hazm)
 * BS4
 * NLTK
+
 Then, use the guide below to pre-process your data. Note that the input file must be in the format of WikiExtractor's output
 
 ```
