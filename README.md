@@ -21,3 +21,6 @@ Optional Parameters:
 -h, --help               Help
 -n, --normalize-output   Normalize the output text (default False)
 ```
+
+# Corpora
+Two corpuses (normalized and non-normalized) made from the 2021-01-20 Wikipedia dumps will be uploaded soon.
