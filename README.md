@@ -24,4 +24,4 @@ Optional Parameters:
 ```
 
 # Corpora
-Two corpuses (normalized and non-normalized) made from the 2021-01-20 Wikipedia dumps will be uploaded soon.
+Two corpora (one normalized and one non-normalized) made from the 2021-01-20 Wikipedia dumps will be uploaded soon.
