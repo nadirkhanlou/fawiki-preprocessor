@@ -33,10 +33,10 @@ for q in quadruples[:no_of_tests]:
     i += 1
     # Top 5 results are chosen as predictions
     preds = [p[1] for p in model.get_analogies(q[0], q[1], q[2])[:5]]
-    if q[3] in preds:
-        counter += 1
-        print("Query: ", q[0], q[1], q[2], q[3])
-        print("Predictions:", preds)
+    # if q[3] in preds:
+    #     counter += 1
+    #     print("Query: ", q[0], q[1], q[2], q[3])
+    #     print("Predictions:", preds)
     predictions.append((q[3], preds))
 
 print("LOG: Number of correct predictions:",
