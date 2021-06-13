@@ -18,7 +18,7 @@ for line in lines:
     if line == '':
         continue
     quadruples += [line.split()]
-print("INFO: Number of quadruples:", len(quadruples))
+print("LOG: Number of quadruples:", len(quadruples))
 if (no_of_tests > len(quadruples)):
     no_of_tests = len(quadruples)
 counter = 0
@@ -28,7 +28,7 @@ predictions = []
 seed(70)
 shuffle(quadruples)
 
-print("INFO: Using", no_of_tests, "samples")
+print("LOG: Using", no_of_tests, "samples")
 for q in quadruples[:no_of_tests]:
     i += 1
     # Top 5 results are chosen as predictions
